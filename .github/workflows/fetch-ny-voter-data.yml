@@ -2,7 +2,7 @@ name: Fetch NY Voter Wait Times (NYC)
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
